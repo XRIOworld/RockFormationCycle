@@ -5,9 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
+    path: Assets/_Assets/Scenes/hand track test.unity
+    guid: ecff951cfd67f2a48bd5db49ce99dd2a
+  - enabled: 0
     path: Assets/Oculus/Interaction/Samples/Scenes/Examples/TransformerExamples.unity
     guid: 7475942f60c376744ba1ec487d140105
+  - enabled: 0
+    path: Assets/_Assets/Scenes/handtrack test2.unity
+    guid: a041e5d2d9b28dd4f84f3ba4324aebea
+  - enabled: 1
+    path: Assets/_Assets/Scenes/Rock Formation stationary.unity
+    guid: ccedc3982e12e49419a0ae8214e74a6f
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 99d81c6c0a15cca4aac4916d55b1b6f8,
       type: 2}
