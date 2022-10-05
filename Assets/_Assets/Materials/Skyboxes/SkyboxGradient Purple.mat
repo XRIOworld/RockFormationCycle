@@ -23,9 +23,9 @@ Material:
     - _DitherStrength: 32
     - _Exp: 0.98
     m_Colors:
-    - _BottomColor: {r: 0.46168566, g: 0.7830189, b: 0.6776532, a: 1}
+    - _BottomColor: {r: 0.2706924, g: 0.54233885, b: 0.7264151, a: 1}
     - _Direction: {r: 0, g: 1, b: 0, a: 1}
     - _MiddleColor: {r: 0.6662958, g: 0.8773585, b: 0.8108973, a: 1}
-    - _TopColor: {r: 0.940566, g: 1, b: 0.7688679, a: 1}
+    - _TopColor: {r: 0.85032827, g: 0.9622642, b: 0.52198297, a: 1}
     - _Up: {r: 0, g: 1, b: 0, a: 1}
   m_BuildTextureStacks: []
