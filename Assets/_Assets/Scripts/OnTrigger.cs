@@ -5,13 +5,16 @@ using UnityEngine;
 public class OnTrigger : MonoBehaviour
 {
     Animator animator;
-    public GameObject planeParticle;
+    public GameObject particleEffect;
+    public GameObject objectToRotate;
+    public float rotationAmount;
+    private Quaternion currentRotation; // stores a value for rotation
 
 
     void Start()
     {
         animator = GetComponentInChildren<Animator>();
-        planeParticle.SetActive(false);
+        particleEffect.SetActive(false);
        
     }
 
@@ -21,8 +24,10 @@ public class OnTrigger : MonoBehaviour
         if (collider.tag == "box")
         {
             animator.SetTrigger("crateJump");
-            planeParticle.SetActive(true);
-            planeParticle.transform.position = collider.transform.position;
+            currentRotation = objectToRotate.transform.rotation;
+            objectToRotate.transform.rotation = currentRotation * Quaternion.Euler(0, rotationAmount, 0); // updates the y rotation of the object
+            particleEffect.SetActive(true);
+            particleEffect.transform.position = collider.transform.position;
             Invoke("DeactiveParticles", 2f);
         }
 
@@ -32,7 +37,7 @@ public class OnTrigger : MonoBehaviour
 
     void DeactiveParticles()
     {
-        planeParticle.SetActive(false);
+        particleEffect.SetActive(false);
     }
 
 }
