@@ -9,8 +9,8 @@ public class InfoBehavior : MonoBehaviour
     //that's what I going to scale up
     Transform SectionInfo;
 
-    //what I going to interpolate. default the info panel to 0 so it's off at start
-    //Vector3 desiredScale = Vector3.one;
+    //what I going to interpolate.
+    //default scale set to zero
     Vector3 desiredScale = Vector3.zero;
 
 
