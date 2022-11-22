@@ -5818,7 +5818,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8951a656a7c00e74094166ef415cdce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _collider: {fileID: 4599023282891593130}
+  _collider: {fileID: 4599023282891593131}
 --- !u!114 &838230746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14106,7 +14106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8951a656a7c00e74094166ef415cdce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _collider: {fileID: 4599023282891593130}
+  _collider: {fileID: 0}
 --- !u!114 &1972921962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20496,7 +20496,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2120072163}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -26702,11 +26702,11 @@ GameObject:
   - component: {fileID: 4599023282891593127}
   - component: {fileID: 4599023282891593126}
   - component: {fileID: 4599023282891593125}
+  - component: {fileID: 4599023282891593131}
   - component: {fileID: 4599023282891593130}
   - component: {fileID: 4599023282891593134}
   - component: {fileID: 4599023282891593133}
   - component: {fileID: 4599023282891593132}
-  - component: {fileID: 4599023282891593131}
   m_Layer: 0
   m_Name: donut ring
   m_TagString: Untagged
@@ -26805,8 +26805,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 94
   m_CollisionDetection: 0
---- !u!65 &4599023282891593130
-BoxCollider:
+--- !u!135 &4599023282891593130
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -26814,12 +26814,12 @@ BoxCollider:
   m_GameObject: {fileID: 4599023282891593124}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 0.16653496, y: 0.16064143, z: 0.21477932}
-  m_Center: {x: -0.4843323, y: 1.0176774, z: -0.0032844245}
---- !u!65 &4599023282891593131
-BoxCollider:
+  m_Radius: 0.13455057
+  m_Center: {x: -0.18606323, y: 0.9939369, z: 0.49}
+--- !u!135 &4599023282891593131
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -26827,12 +26827,12 @@ BoxCollider:
   m_GameObject: {fileID: 4599023282891593124}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 0.20104724, y: 0.16825867, z: 0.22901648}
-  m_Center: {x: 0.44894543, y: 1.0187751, z: -0.27508086}
---- !u!65 &4599023282891593132
-BoxCollider:
+  m_Radius: 0.12536466
+  m_Center: {x: -0.49, y: 0.9939369, z: 0}
+--- !u!135 &4599023282891593132
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -26840,12 +26840,12 @@ BoxCollider:
   m_GameObject: {fileID: 4599023282891593124}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 0.18978459, y: 0.16825867, z: 0.15344971}
-  m_Center: {x: -0.17150262, y: 1.0187751, z: -0.49556974}
---- !u!65 &4599023282891593133
-BoxCollider:
+  m_Radius: 0.13848734
+  m_Center: {x: 0.44, y: 0.9939369, z: -0.26}
+--- !u!135 &4599023282891593133
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -26853,12 +26853,12 @@ BoxCollider:
   m_GameObject: {fileID: 4599023282891593124}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 0.18978459, y: 0.16825867, z: 0.17782342}
-  m_Center: {x: -0.17150262, y: 1.0187751, z: 0.45317662}
---- !u!65 &4599023282891593134
-BoxCollider:
+  m_Radius: 0.13848734
+  m_Center: {x: -0.13, y: 0.9939369, z: -0.5}
+--- !u!135 &4599023282891593134
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -26866,10 +26866,10 @@ BoxCollider:
   m_GameObject: {fileID: 4599023282891593124}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 0.24717703, y: 0.16326046, z: 0.21741587}
-  m_Center: {x: 0.41440195, y: 1.0221622, z: 0.3157244}
+  m_Radius: 0.13848734
+  m_Center: {x: 0.41, y: 0.9939369, z: 0.30312267}
 --- !u!224 &4617795638714323696
 RectTransform:
   m_ObjectHideFlags: 0
