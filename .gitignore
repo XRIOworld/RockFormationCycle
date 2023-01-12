@@ -75,3 +75,5 @@ crashlytics-build.properties
 #LightingData 
 LightingData.asset
 LightingData.asset.meta
+*.meta
+*.log
