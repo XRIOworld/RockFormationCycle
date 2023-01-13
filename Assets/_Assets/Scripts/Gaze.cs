@@ -4,10 +4,16 @@ using UnityEngine;
 
 public class Gaze : MonoBehaviour
 {
-    List<InfoBehavior> infos = new List<InfoBehavior>();
+    [SerializeField]List<InfoBehavior> infos = new List<InfoBehavior>();
 
     void Start()
     {
+        UpdateInfoBehaviorList();
+    }
+
+    public void UpdateInfoBehaviorList()
+    {
+        infos.Clear();
         infos = FindObjectsOfType<InfoBehavior>().ToList();
     }
 
@@ -17,13 +23,12 @@ public class Gaze : MonoBehaviour
             GameObject go = hit.collider.gameObject;
             if (go.CompareTag("hasInfo"))
             {
-                print("HERE");
+                //print("HERE");
+                UpdateInfoBehaviorList();
                 OpenInfo(go.GetComponent<InfoBehavior>());
             }
-            else
-            {
-                CloseAll();
-            }
+            
+
             
         }
     }
@@ -34,8 +39,11 @@ public class Gaze : MonoBehaviour
         {
             if (info == desiredInfo)
             {
+                //print("found desired info");
                 info.OpenInfo();
-            } else
+            } 
+            
+            else
             {
                 info.CloseInfo();
             }
