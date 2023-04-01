@@ -56,7 +56,7 @@ public class NetworkManager: MonoBehaviourPunCallbacks
     public override void OnPlayerEnteredRoom(Player newPlayer)
     {
         Debug.Log("A new player joined the room.");
-        Debug.Log("The new player's avatar is spawned" + newPlayer.CustomProperties["avatarType"].ToString());
+       // Debug.Log("The new player's avatar is spawned" + newPlayer.CustomProperties["avatarType"].ToString());
         base.OnPlayerEnteredRoom(newPlayer);
     }
 
