@@ -7,13 +7,10 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/_Assets/Scenes/Rock Cycle_welcome.unity
-    guid: 59857e8ea35ae1e48829bd8c5ee2520d
+    guid: 24da6f01c755a664482aee2640d5b75c
   - enabled: 1
     path: Assets/_Assets/Scenes/Rock Cycle_study modes.unity
     guid: 02e4100c662a7df4292ce34cf7597587
-  - enabled: 1
-    path: Assets/_Assets/Scenes/Rock Cycle_welcome 1.unity
-    guid: 24da6f01c755a664482aee2640d5b75c
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 99d81c6c0a15cca4aac4916d55b1b6f8,
       type: 2}
