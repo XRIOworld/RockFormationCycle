@@ -13,19 +13,19 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3000
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _DitherStrength: 32
+    - _DitherStrength: 33
     - _Exp: 0.98
     m_Colors:
-    - _BottomColor: {r: 0.03773582, g: 0.029431516, b: 0, a: 1}
-    - _Direction: {r: 0, g: 1, b: 0, a: 1}
-    - _MiddleColor: {r: 0, g: 0.07415812, b: 0.16981131, a: 1}
-    - _TopColor: {r: 0.0024029962, g: 0.1084499, b: 0.509434, a: 1}
+    - _BottomColor: {r: 0, g: 0.2922522, b: 0.5283019, a: 1}
+    - _Direction: {r: 0, g: 1, b: 0, a: 300}
+    - _MiddleColor: {r: 0.15098791, g: 0.6745755, b: 0.8207547, a: 1}
+    - _TopColor: {r: 0, g: 0.27929956, b: 0.5566038, a: 1}
     - _Up: {r: 0, g: 1, b: 0, a: 1}
   m_BuildTextureStacks: []
